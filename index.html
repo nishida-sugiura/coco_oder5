@@ -32,7 +32,7 @@
 <div class="list">
 
 <div class="box">
-<figure><img src="images/medaka1.jpg" alt=""></figure>
+<figure><img id="image101" src="images/medaka1.jpg" alt=""></figure>
 <p class="top-left"  style="font-size:3.5vw">200円</p>
 </div>
 
@@ -61,7 +61,7 @@
 
 <div class="list">
 <div class="box">
-<figure><img src="images/medaka2.jpg" alt=""></figure>
+<figure><img id="image102" src="images/medaka2.jpg" alt=""></figure>
 <p class="top-left"  style="font-size:3.5vw">200円</p>
 </div>
 	
@@ -90,7 +90,7 @@
 
 <div class="list">
 <div class="box">
-<figure><img src="images/medaka3.jpg" alt=""></figure>
+<figure><img id="image103" src="images/medaka3.jpg" alt=""></figure>
 <p class="top-left"  style="font-size:3.5vw">400円</p>
 </div>
 <h4 style="font-size:3vw">オロチ</h4>
@@ -119,7 +119,7 @@
 <div class="list">
 
 <div class="box">
-<figure><img src="images/medaka4.jpg" alt=""></figure>
+<figure><img id="image104" src="images/medaka4.jpg" alt=""></figure>
 <p class="top-left"  style="font-size:3.5vw">600円</p>
 </div>
 <h4 style="font-size:3vw">りんね</h4>
@@ -148,7 +148,7 @@
 <div class="list">
 
 <div class="box">
-<figure><img src="images/medaka5.jpg" alt=""></figure>
+<figure><img id="image105" src="images/medaka5.jpg" alt=""></figure>
 <p class="top-left"  style="font-size:3.5vw">800円</p>
 </div>
 <h4 style="font-size:3vw">月弓</h4>
@@ -177,7 +177,7 @@
 <div class="list">
 <!-----a href="medical.html"----->
 <div class="box">
-<figure><img src="images/medaka6.jpg" alt=""></figure>
+<figure><img id="image106" src="images/medaka6.jpg" alt=""></figure>
 <p class="top-left"  style="font-size:3.5vw">1,000円</p>
 </div>
 <h4 style="font-size:3vw">夜桜</h4>
@@ -293,10 +293,78 @@ window.addEventListener('DOMContentLoaded', ()=>{
             $('input').each(function (index, element) {
                 if (object[0][$(element).attr('name')]) {
                     $(element).val([object[0][$(element).attr('name')]]);
+			
+if(data[0].medaka1<=2){LinkClick(0)}
+
+if(data[0].medaka2 <=2){LinkClick(1)}
+
+if(data[0].medaka3 <=2){LinkClick(2)}
+
+if(data[0].medaka4 <=2){LinkClick(3)}
+
+if(data[0].medaka5 <=2){LinkClick(4)}
+
+if(data[0].medaka6 <=2){LinkClick(5)}			
+			
+			
+			
                 }
             });
         });
 </script>
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<script type="text/javascript">
+     
+
+function LinkClick(param) {
+
+     var elem1 = document.getElementById("image101");
+     var elem2 = document.getElementById("image102");
+     var elem3 = document.getElementById("image103");
+     var elem4 = document.getElementById("image104");
+     var elem5 = document.getElementById("image103");
+     var elem6 = document.getElementById("image104");
+
+      switch (param) {
+
+        case 0:
+          elem1.src =  "images/soldout.jpg";
+          break;
+
+        case 1:
+          elem2.src =  "images/soldout.jpg";
+          break;
+
+        case 2:
+          elem3.src =  "images/soldout.jpg";
+          break;
+
+        case 3:
+          elem4.src =  "images/soldout.jpg";
+          break;
+
+        case 4:
+          elem5.src =  "images/soldout.jpg";
+          break;
+
+        case 5:
+          elem6.src =  "images/soldout.jpg";
+          break;
+      }}
+
+  </script>
+	
+	
 	
 	
 	
