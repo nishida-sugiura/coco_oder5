@@ -291,7 +291,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
             const object = data;
             //inputタグそれぞれに取得したデータを設定
             $('input').each(function (index, element) {
-                if (object[0][$(element).attr('name')]) {
+                if (object[0][$(element).attr('name')]>0) {
                     $(element).val([object[0][$(element).attr('name')]]);
 			
 if(data[0].medaka1<=0){LinkClick(0)
