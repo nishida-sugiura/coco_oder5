@@ -168,6 +168,22 @@ margin-bottom: 1vw;
 margin-top: 1vw;
 }
 
+h1.tp1{ 
+ color: black;
+ text-align: left;
+font-size: 3.5vw;
+margin-bottom: 1vw;
+margin-top: 1vw;
+}
+
+h1.tp2{ 
+ color: black;
+ text-align: left;
+font-size: 3vw;
+margin-bottom: 1vw;
+margin-top: 1vw;
+}
+
 h1.kesu{ 
 margin-bottom: 1vw;
  color: transparent;
