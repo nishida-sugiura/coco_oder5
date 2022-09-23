@@ -200,6 +200,32 @@ margin-top: 1vw;
 }
 
 
+h1.m{ 
+ color: black;
+ text-align: center;
+font-size: vw;
+margin-bottom: 1vw;
+margin-top: 1vw;
+}
+
+
+h1.ss{ 
+ color: black;
+font-size: 7vw;
+ text-align: center;
+margin-bottom: 1vw;
+margin-top: 1vw;
+padding: 2vw 2vw 2vw 2vw;
+}
+
+
+
+
+
+
+
+
+
 
 .button {
   display       : inline-block;
