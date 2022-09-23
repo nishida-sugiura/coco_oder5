@@ -61,8 +61,8 @@ for(var i=0;i<kk.length;i++){
        let sum_char = Number(num1*price1)+Number(num2*price2)+Number(num3*price3)+Number(num4*price4)+Number(num5*price5)+Number(num6*price6);
        
       msg = msg + ["代金合計：" + sum_char + "円"　]  + "\n"+ "============================="+ "\n"
-       msg = msg + ["受取日：" + daytime] ;
-
+       msg = msg + ["受取日：" + daytime]  + "\n"+ "============================="+ "\n"
+  msg = msg + ["受取日：" + request1 ] ;
         
         
         sendText(String(msg)); 
