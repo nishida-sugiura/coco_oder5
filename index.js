@@ -25,7 +25,7 @@ $(function () {
         
         var daytime = $('input[name="daytime"]').val();
         
-        var request1 = $('input[name="request1"]').val();
+        var request1 = $('textarea[name="request1"]').val();
         
         
         // var date = $('input[name="date"]').val();
